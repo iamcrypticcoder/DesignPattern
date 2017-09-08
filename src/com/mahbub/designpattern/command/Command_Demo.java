@@ -1,4 +1,4 @@
-package com.mahbub.designpattern;
+package com.mahbub.designpattern.command;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,4 +1,4 @@
-package com.mahbub.designpattern;
+package com.mahbub.designpattern.singleton;
 
 class SingletonClass {
     private static SingletonClass instance;

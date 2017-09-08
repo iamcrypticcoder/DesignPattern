@@ -1,4 +1,4 @@
-package com.mahbub.designpattern;
+package com.mahbub.designpattern.factorymethod;
 
 interface DatabaseConnection {
     void connect();
@@ -36,7 +36,7 @@ class OracleConnection implements DatabaseConnection {
 }
 
 class ConnectionFactory {
-    // This is called factory method
+    // This is called factorymethod method
     public static DatabaseConnection getConnection(String dbServer) {
         if(dbServer.equals("mysql")) return new MySQLConnection();
         if(dbServer.equals("mssql")) return new MSSQLConnection();

@@ -1,4 +1,4 @@
-package com.mahbub.designpattern;
+package com.mahbub.designpattern.builder;
 
 class Computer {
     private String cpu;

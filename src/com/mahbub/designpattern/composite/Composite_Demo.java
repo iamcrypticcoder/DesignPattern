@@ -1,4 +1,4 @@
-package com.mahbub.designpattern;
+package com.mahbub.designpattern.composite;
 
 import java.util.ArrayList;
 import java.util.List;

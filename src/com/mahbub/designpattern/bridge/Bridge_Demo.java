@@ -1,6 +1,4 @@
-package com.mahbub.designpattern;
-
-import sun.security.provider.SHA;
+package com.mahbub.designpattern.bridge;
 
 // Implementer interface
 interface GraphicsAPI {
