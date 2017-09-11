@@ -23,7 +23,7 @@ GANG OF FOUR
 TYPES OF PATTERNS
 a. Creational: Concern the process of creating an object in a flexible way.
 b. Structural: Composing class and object with proper inheritance.
-c. Behavioral: Ways in which different classes and objects can interect and communicate.
+c. Behavioral: Ways in which different classes and objects can interact and communicate.
 
 
 CREATIONAL PATTERNS
