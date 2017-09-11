@@ -1,0 +1,32 @@
+WHAT IS DESIGN PATTERN ?
+1. A problem and solution pair
+2. Proven solution of the contextual problem
+3. Interestingly borrowed from Civil and Electrical Engineering Domain
+
+
+WHY DESIGN PATTERN ?
+1. Why should we use design patterns in programming? Our code can work just fine without it.
+Counter question would be "Would you rather live in a luxurious home, or in simple establishment with four walls"
+
+
+2. Design Pattern gives following advantages:
+a. Code Modification
+b. Code Extensibility
+c. Code Resuability
+
+
+GANG OF FOUR
+1. The book "Design Pattern: Elements of Resuabile Object Oriented Software" started design pattern at first
+2. Authors are ... Also know as Gang of Four
+
+
+TYPES OF PATTERNS
+a. Creational: Concern the process of creating an object in a flexible way.
+b. Structural: Composing class and object with proper inheritance.
+c. Behavioral: Ways in which different classes and objects can interect and communicate.
+
+
+CREATIONAL PATTERNS
+1. Abstract Factory:
+Intent:
+Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
