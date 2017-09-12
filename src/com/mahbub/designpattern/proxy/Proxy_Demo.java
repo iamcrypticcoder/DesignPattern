@@ -1,30 +1,29 @@
 package com.mahbub.designpattern.proxy;
 
+import java.util.Random;
+
 interface Image {
     void displayImage();
 }
 
 class RealImage implements Image {
 
-    private String filename = null;
+    private String imageUrl = null;
 
-    public RealImage(final String FILENAME) {
-        filename = FILENAME;
-        loadImageFromDisk();
+    public RealImage(final String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 
-    /**
-     * Loads the image from the disk
-     */
-    private void loadImageFromDisk() {
-        System.out.println("Loading   " + filename);
+    // Load image from network
+    public boolean loadImageFromNetwork() {
+        boolean ret = new Random().nextBoolean();
+        System.out.println("Loading image from network... " + (ret ? "SUCCESS" : "FAIL"));
+        return ret;
     }
 
-    /**
-     * Displays the image
-     */
+    // Displays the image
     public void displayImage() {
-        System.out.println("Displaying " + filename);
+        System.out.println("Displaying " + imageUrl);
     }
 
 }
@@ -32,22 +31,55 @@ class RealImage implements Image {
 class ProxyImage implements Image {
 
     private RealImage image = null;
-    private String filename = null;
+    private String imageUrl = null;
 
-    public ProxyImage(final String FILENAME) {
-        filename = FILENAME;
+    public ProxyImage(final String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
+    // Load from memory
+    private boolean loadImageFromMemory() {
+        boolean ret = new Random().nextBoolean();
+        System.out.println("Loading image from memory... " + (ret ? "SUCCESS" : "FAIL"));
+        return ret;
+    }
+
+    // Load image from disk
+    private boolean loadImageFromDisk() {
+        boolean ret = new Random().nextBoolean();
+        System.out.println("Loading image from disk..." + (ret ? "SUCCESS" : "FAIL"));
+        return ret;
+    }
+
+    // Display placeholder image
+    private void displayPlaceholderImage() {
+        System.out.println("Displaying placeholding image...");
     }
 
     /**
      * Displays the image
      */
     public void displayImage() {
-        if (image == null) {
-            image = new RealImage(filename);
+        if(loadImageFromMemory()) {
+            System.out.println("Displaying " + imageUrl);
+            return;
         }
-        image.displayImage();
-    }
+        if(loadImageFromDisk()) {
+            System.out.println("Displaying " + imageUrl);
+            return;
+        }
 
+        if (image == null) {
+            image = new RealImage(imageUrl);
+        }
+
+        if(image.loadImageFromNetwork()) {
+            image.displayImage();
+            return;
+        }
+
+        displayPlaceholderImage();
+    }
 }
 
 public class Proxy_Demo {
@@ -57,8 +89,8 @@ public class Proxy_Demo {
 
         IMAGE1.displayImage(); // loading necessary
         IMAGE1.displayImage(); // loading unnecessary
-        IMAGE2.displayImage(); // loading necessary
-        IMAGE2.displayImage(); // loading unnecessary
-        IMAGE1.displayImage(); // loading unnecessary
+        //IMAGE2.displayImage(); // loading necessary
+        //IMAGE2.displayImage(); // loading unnecessary
+        //IMAGE1.displayImage(); // loading unnecessary
     }
 }
