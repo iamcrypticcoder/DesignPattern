@@ -1,24 +1,70 @@
-//
-//  main.m
-//  AbstractFactory
-//
-//  Created by KAZI MAHBUBUR RAHMAN on 9/13/17.
-//  Copyright © 2017 KAZI MAHBUBUR RAHMAN. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 
-@interface Mahbub : NSObject
-
-+(void) print;
-
+@protocol Button <NSObject>
+-(void) setTitle:(NSString*)title;
+-(void) show;
 @end
 
-@implementation Mahbub
+@protocol Window <NSObject>
+-(void) setTitle:(NSString*)title;
+-(void) show;
+@end
 
-+(void)print {
-    NSLog(@"Hello");
+@interface WinButton : NSObject<Button>
+@property(nonatomic, strong) NSString *title;
+@end
+
+@implementation WinButton
+-(void) setTitle:(NSString*)title {
+    _title = title;
 }
+-(void) show {
+    NSLog(@"Showing Windows style button [Title: %@]", _title);
+}
+@end
+
+@interface OSXButton : NSObject<Button>
+@property(nonatomic, strong) NSString *title;
+@end
+
+@implementation OSXButton
+-(void) setTitle:(NSString*)title {
+    _title = title;
+}
+-(void) show {
+    NSLog(@"Showing OSX style button [Title: %@]", _title);
+}
+@end
+
+@interface WinWindow : NSObject<Window>
+@property(nonatomic, strong) NSString *title;
+@end
+
+@implementation WinWindow
+-(void) setTitle:(NSString*)title {
+    _title = title;
+}
+-(void) show {
+    NSLog(@"Showing OSX style button [Title: %@]", _title);
+}
+@end
+
+@interface OSXWindow : NSObject<Window>
+@property(nonatomic, strong) NSString *title;
+@end
+
+@implementation OSXWindow
+-(void) setTitle:(NSString*)title {
+    _title = title;
+}
+-(void) show {
+    NSLog(@"Showing OSX style button [Title: %@]", _title);
+}
+@end
+
+@protocol AbstractGUIFactory <NSObject>
+
+-(Button)
 
 @end
 
