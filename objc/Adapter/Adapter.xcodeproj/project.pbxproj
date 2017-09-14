@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D33B29A21F6A59B40058C993 /* EthernetConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D33B29A11F6A59B40058C993 /* EthernetConnection.m */; };
 		D353991B1F69A9B600D6B952 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D353991A1F69A9B600D6B952 /* main.m */; };
+		D3987DE21F6A811E0013778E /* MobileDataConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987DDF1F6A811E0013778E /* MobileDataConnection.m */; };
+		D3987DE31F6A811E0013778E /* ThunderboltAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987DE11F6A811E0013778E /* ThunderboltAdapter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D33B299F1F6A59130058C993 /* Connection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		D33B29A01F6A59B40058C993 /* EthernetConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EthernetConnection.h; sourceTree = "<group>"; };
+		D33B29A11F6A59B40058C993 /* EthernetConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EthernetConnection.m; sourceTree = "<group>"; };
 		D35399171F69A9B600D6B952 /* Adapter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Adapter; sourceTree = BUILT_PRODUCTS_DIR; };
 		D353991A1F69A9B600D6B952 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3987DDE1F6A811E0013778E /* MobileDataConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileDataConnection.h; sourceTree = "<group>"; };
+		D3987DDF1F6A811E0013778E /* MobileDataConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileDataConnection.m; sourceTree = "<group>"; };
+		D3987DE01F6A811E0013778E /* ThunderboltAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThunderboltAdapter.h; sourceTree = "<group>"; };
+		D3987DE11F6A811E0013778E /* ThunderboltAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThunderboltAdapter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				D353991A1F69A9B600D6B952 /* main.m */,
+				D33B299F1F6A59130058C993 /* Connection.h */,
+				D33B29A01F6A59B40058C993 /* EthernetConnection.h */,
+				D33B29A11F6A59B40058C993 /* EthernetConnection.m */,
+				D3987DDE1F6A811E0013778E /* MobileDataConnection.h */,
+				D3987DDF1F6A811E0013778E /* MobileDataConnection.m */,
+				D3987DE01F6A811E0013778E /* ThunderboltAdapter.h */,
+				D3987DE11F6A811E0013778E /* ThunderboltAdapter.m */,
 			);
 			path = Adapter;
 			sourceTree = "<group>";
@@ -120,7 +137,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3987DE21F6A811E0013778E /* MobileDataConnection.m in Sources */,
+				D33B29A21F6A59B40058C993 /* EthernetConnection.m in Sources */,
 				D353991B1F69A9B600D6B952 /* main.m in Sources */,
+				D3987DE31F6A811E0013778E /* ThunderboltAdapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +271,7 @@
 				D35399201F69A9B600D6B952 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

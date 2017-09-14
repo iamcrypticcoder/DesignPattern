@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D33B298C1F6A47E10058C993 /* WinFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D33B298B1F6A47E10058C993 /* WinFactory.m */; };
+		D33B298F1F6A48080058C993 /* WinButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D33B298E1F6A48080058C993 /* WinButton.m */; };
+		D33B29921F6A48380058C993 /* WinWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D33B29911F6A48380058C993 /* WinWindow.m */; };
+		D33B29951F6A48A20058C993 /* GUIBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = D33B29941F6A48A20058C993 /* GUIBuilder.m */; };
+		D33B29981F6A49370058C993 /* OSXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D33B29971F6A49370058C993 /* OSXButton.m */; };
+		D33B299B1F6A49650058C993 /* OSXWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D33B299A1F6A49650058C993 /* OSXWindow.m */; };
+		D33B299E1F6A4A870058C993 /* OSXFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D33B299D1F6A4A870058C993 /* OSXFactory.m */; };
 		D35398E91F69A6E700D6B952 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D35398E81F69A6E700D6B952 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +30,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D33B29851F6A46A80058C993 /* AbstractGUIFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractGUIFactory.h; sourceTree = "<group>"; };
+		D33B29881F6A47160058C993 /* Button.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		D33B29891F6A47520058C993 /* Window.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		D33B298A1F6A47E10058C993 /* WinFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinFactory.h; sourceTree = "<group>"; };
+		D33B298B1F6A47E10058C993 /* WinFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinFactory.m; sourceTree = "<group>"; };
+		D33B298D1F6A48080058C993 /* WinButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinButton.h; sourceTree = "<group>"; };
+		D33B298E1F6A48080058C993 /* WinButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinButton.m; sourceTree = "<group>"; };
+		D33B29901F6A48380058C993 /* WinWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinWindow.h; sourceTree = "<group>"; };
+		D33B29911F6A48380058C993 /* WinWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinWindow.m; sourceTree = "<group>"; };
+		D33B29931F6A48A20058C993 /* GUIBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUIBuilder.h; sourceTree = "<group>"; };
+		D33B29941F6A48A20058C993 /* GUIBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUIBuilder.m; sourceTree = "<group>"; };
+		D33B29961F6A49370058C993 /* OSXButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSXButton.h; sourceTree = "<group>"; };
+		D33B29971F6A49370058C993 /* OSXButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSXButton.m; sourceTree = "<group>"; };
+		D33B29991F6A49650058C993 /* OSXWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSXWindow.h; sourceTree = "<group>"; };
+		D33B299A1F6A49650058C993 /* OSXWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSXWindow.m; sourceTree = "<group>"; };
+		D33B299C1F6A4A870058C993 /* OSXFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSXFactory.h; sourceTree = "<group>"; };
+		D33B299D1F6A4A870058C993 /* OSXFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSXFactory.m; sourceTree = "<group>"; };
 		D35398E51F69A6E700D6B952 /* AbstractFactory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AbstractFactory; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35398E81F69A6E700D6B952 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +82,23 @@
 			isa = PBXGroup;
 			children = (
 				D35398E81F69A6E700D6B952 /* main.m */,
+				D33B29851F6A46A80058C993 /* AbstractGUIFactory.h */,
+				D33B29881F6A47160058C993 /* Button.h */,
+				D33B29891F6A47520058C993 /* Window.h */,
+				D33B298A1F6A47E10058C993 /* WinFactory.h */,
+				D33B298B1F6A47E10058C993 /* WinFactory.m */,
+				D33B299C1F6A4A870058C993 /* OSXFactory.h */,
+				D33B299D1F6A4A870058C993 /* OSXFactory.m */,
+				D33B298D1F6A48080058C993 /* WinButton.h */,
+				D33B298E1F6A48080058C993 /* WinButton.m */,
+				D33B29901F6A48380058C993 /* WinWindow.h */,
+				D33B29911F6A48380058C993 /* WinWindow.m */,
+				D33B29961F6A49370058C993 /* OSXButton.h */,
+				D33B29971F6A49370058C993 /* OSXButton.m */,
+				D33B29991F6A49650058C993 /* OSXWindow.h */,
+				D33B299A1F6A49650058C993 /* OSXWindow.m */,
+				D33B29931F6A48A20058C993 /* GUIBuilder.h */,
+				D33B29941F6A48A20058C993 /* GUIBuilder.m */,
 			);
 			path = AbstractFactory;
 			sourceTree = "<group>";
@@ -120,7 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D33B29921F6A48380058C993 /* WinWindow.m in Sources */,
+				D33B299E1F6A4A870058C993 /* OSXFactory.m in Sources */,
+				D33B298F1F6A48080058C993 /* WinButton.m in Sources */,
+				D33B29981F6A49370058C993 /* OSXButton.m in Sources */,
 				D35398E91F69A6E700D6B952 /* main.m in Sources */,
+				D33B29951F6A48A20058C993 /* GUIBuilder.m in Sources */,
+				D33B299B1F6A49650058C993 /* OSXWindow.m in Sources */,
+				D33B298C1F6A47E10058C993 /* WinFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +299,7 @@
 				D35398EE1F69A6E700D6B952 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

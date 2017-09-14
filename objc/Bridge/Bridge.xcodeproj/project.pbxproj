@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		D35399081F69A9A000D6B952 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D35399071F69A9A000D6B952 /* main.m */; };
+		D3987DE71F6A88130013778E /* OpenGLAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987DE61F6A88130013778E /* OpenGLAPI.m */; };
+		D3987DEA1F6A886D0013778E /* DirectXAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987DE91F6A886D0013778E /* DirectXAPI.m */; };
+		D3987DED1F6A89C70013778E /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987DEC1F6A89C70013778E /* Shape.m */; };
+		D3987DF01F6A8B190013778E /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987DEF1F6A8B190013778E /* Circle.m */; };
+		D3987DF31F6A8B3F0013778E /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987DF21F6A8B3F0013778E /* Rectangle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,17 @@
 /* Begin PBXFileReference section */
 		D35399041F69A9A000D6B952 /* Bridge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Bridge; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35399071F69A9A000D6B952 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3987DE41F6A87790013778E /* GraphicsAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphicsAPI.h; sourceTree = "<group>"; };
+		D3987DE51F6A88130013778E /* OpenGLAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLAPI.h; sourceTree = "<group>"; };
+		D3987DE61F6A88130013778E /* OpenGLAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLAPI.m; sourceTree = "<group>"; };
+		D3987DE81F6A886D0013778E /* DirectXAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectXAPI.h; sourceTree = "<group>"; };
+		D3987DE91F6A886D0013778E /* DirectXAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectXAPI.m; sourceTree = "<group>"; };
+		D3987DEB1F6A89C70013778E /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		D3987DEC1F6A89C70013778E /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		D3987DEE1F6A8B190013778E /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		D3987DEF1F6A8B190013778E /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		D3987DF11F6A8B3F0013778E /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		D3987DF21F6A8B3F0013778E /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,17 @@
 			isa = PBXGroup;
 			children = (
 				D35399071F69A9A000D6B952 /* main.m */,
+				D3987DE41F6A87790013778E /* GraphicsAPI.h */,
+				D3987DE51F6A88130013778E /* OpenGLAPI.h */,
+				D3987DE61F6A88130013778E /* OpenGLAPI.m */,
+				D3987DE81F6A886D0013778E /* DirectXAPI.h */,
+				D3987DE91F6A886D0013778E /* DirectXAPI.m */,
+				D3987DEB1F6A89C70013778E /* Shape.h */,
+				D3987DEC1F6A89C70013778E /* Shape.m */,
+				D3987DEE1F6A8B190013778E /* Circle.h */,
+				D3987DEF1F6A8B190013778E /* Circle.m */,
+				D3987DF11F6A8B3F0013778E /* Rectangle.h */,
+				D3987DF21F6A8B3F0013778E /* Rectangle.m */,
 			);
 			path = Bridge;
 			sourceTree = "<group>";
@@ -121,6 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D35399081F69A9A000D6B952 /* main.m in Sources */,
+				D3987DE71F6A88130013778E /* OpenGLAPI.m in Sources */,
+				D3987DF01F6A8B190013778E /* Circle.m in Sources */,
+				D3987DEA1F6A886D0013778E /* DirectXAPI.m in Sources */,
+				D3987DED1F6A89C70013778E /* Shape.m in Sources */,
+				D3987DF31F6A8B3F0013778E /* Rectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +283,7 @@
 				D353990D1F69A9A000D6B952 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
