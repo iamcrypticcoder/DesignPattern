@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		D353992E1F69A9D000D6B952 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D353992D1F69A9D000D6B952 /* main.m */; };
+		D3987DF61F6A9B190013778E /* Computer.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987DF51F6A9B190013778E /* Computer.m */; };
+		D3987DF91F6A9C170013778E /* ComputerBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987DF81F6A9C170013778E /* ComputerBuilder.m */; };
+		D3987DFC1F6A9D100013778E /* GamingComputerBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987DFB1F6A9D100013778E /* GamingComputerBuilder.m */; };
+		D3987DFF1F6A9D210013778E /* GeneralUsageComputerBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987DFE1F6A9D210013778E /* GeneralUsageComputerBuilder.m */; };
+		D3987E021F6A9E560013778E /* Manufacturer.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E011F6A9E560013778E /* Manufacturer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,16 @@
 /* Begin PBXFileReference section */
 		D353992A1F69A9D000D6B952 /* Builder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Builder; sourceTree = BUILT_PRODUCTS_DIR; };
 		D353992D1F69A9D000D6B952 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3987DF41F6A9B190013778E /* Computer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Computer.h; sourceTree = "<group>"; };
+		D3987DF51F6A9B190013778E /* Computer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Computer.m; sourceTree = "<group>"; };
+		D3987DF71F6A9C170013778E /* ComputerBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputerBuilder.h; sourceTree = "<group>"; };
+		D3987DF81F6A9C170013778E /* ComputerBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComputerBuilder.m; sourceTree = "<group>"; };
+		D3987DFA1F6A9D100013778E /* GamingComputerBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamingComputerBuilder.h; sourceTree = "<group>"; };
+		D3987DFB1F6A9D100013778E /* GamingComputerBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamingComputerBuilder.m; sourceTree = "<group>"; };
+		D3987DFD1F6A9D210013778E /* GeneralUsageComputerBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralUsageComputerBuilder.h; sourceTree = "<group>"; };
+		D3987DFE1F6A9D210013778E /* GeneralUsageComputerBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralUsageComputerBuilder.m; sourceTree = "<group>"; };
+		D3987E001F6A9E560013778E /* Manufacturer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manufacturer.h; sourceTree = "<group>"; };
+		D3987E011F6A9E560013778E /* Manufacturer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manufacturer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				D353992D1F69A9D000D6B952 /* main.m */,
+				D3987DF41F6A9B190013778E /* Computer.h */,
+				D3987DF51F6A9B190013778E /* Computer.m */,
+				D3987DF71F6A9C170013778E /* ComputerBuilder.h */,
+				D3987DF81F6A9C170013778E /* ComputerBuilder.m */,
+				D3987DFA1F6A9D100013778E /* GamingComputerBuilder.h */,
+				D3987DFB1F6A9D100013778E /* GamingComputerBuilder.m */,
+				D3987DFD1F6A9D210013778E /* GeneralUsageComputerBuilder.h */,
+				D3987DFE1F6A9D210013778E /* GeneralUsageComputerBuilder.m */,
+				D3987E001F6A9E560013778E /* Manufacturer.h */,
+				D3987E011F6A9E560013778E /* Manufacturer.m */,
 			);
 			path = Builder;
 			sourceTree = "<group>";
@@ -120,7 +145,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3987DF61F6A9B190013778E /* Computer.m in Sources */,
+				D3987DFF1F6A9D210013778E /* GeneralUsageComputerBuilder.m in Sources */,
 				D353992E1F69A9D000D6B952 /* main.m in Sources */,
+				D3987DF91F6A9C170013778E /* ComputerBuilder.m in Sources */,
+				D3987E021F6A9E560013778E /* Manufacturer.m in Sources */,
+				D3987DFC1F6A9D100013778E /* GamingComputerBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +281,7 @@
 				D35399331F69A9D000D6B952 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
