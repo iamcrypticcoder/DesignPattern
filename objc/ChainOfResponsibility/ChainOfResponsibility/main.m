@@ -1,17 +1,10 @@
-//
-//  main.m
-//  ChainOfResponsibility
-//
-//  Created by KAZI MAHBUBUR RAHMAN on 9/14/17.
-//  Copyright © 2017 KAZI MAHBUBUR RAHMAN. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
+#import "CourierService.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        CourierService* courierService = [[CourierService alloc] init];
+        [courierService processOrder:[[Request alloc] initWith:101 money:10]];
     }
     return 0;
 }

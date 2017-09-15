@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		D35399411F69A9ED00D6B952 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D35399401F69A9ED00D6B952 /* main.m */; };
+		D3987E051F6BACE20013778E /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E041F6BACE20013778E /* Request.m */; };
+		D3987E081F6BADF50013778E /* Divison.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E071F6BADF50013778E /* Divison.m */; };
+		D3987E0B1F6BAF660013778E /* GeneralDivison.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E0A1F6BAF660013778E /* GeneralDivison.m */; };
+		D3987E0E1F6BAF740013778E /* PercelDivisonOne.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E0D1F6BAF740013778E /* PercelDivisonOne.m */; };
+		D3987E111F6BAF860013778E /* PercelDivisonTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E101F6BAF860013778E /* PercelDivisonTwo.m */; };
+		D3987E141F6BAF940013778E /* MoneyDivison.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E131F6BAF940013778E /* MoneyDivison.m */; };
+		D3987E171F6BB1E90013778E /* CourierService.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E161F6BB1E90013778E /* CourierService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,20 @@
 /* Begin PBXFileReference section */
 		D353993D1F69A9ED00D6B952 /* ChainOfResponsibility */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChainOfResponsibility; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35399401F69A9ED00D6B952 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3987E031F6BACE20013778E /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		D3987E041F6BACE20013778E /* Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
+		D3987E061F6BADF50013778E /* Divison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Divison.h; sourceTree = "<group>"; };
+		D3987E071F6BADF50013778E /* Divison.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Divison.m; sourceTree = "<group>"; };
+		D3987E091F6BAF660013778E /* GeneralDivison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralDivison.h; sourceTree = "<group>"; };
+		D3987E0A1F6BAF660013778E /* GeneralDivison.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralDivison.m; sourceTree = "<group>"; };
+		D3987E0C1F6BAF740013778E /* PercelDivisonOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PercelDivisonOne.h; sourceTree = "<group>"; };
+		D3987E0D1F6BAF740013778E /* PercelDivisonOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PercelDivisonOne.m; sourceTree = "<group>"; };
+		D3987E0F1F6BAF860013778E /* PercelDivisonTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PercelDivisonTwo.h; sourceTree = "<group>"; };
+		D3987E101F6BAF860013778E /* PercelDivisonTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PercelDivisonTwo.m; sourceTree = "<group>"; };
+		D3987E121F6BAF940013778E /* MoneyDivison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyDivison.h; sourceTree = "<group>"; };
+		D3987E131F6BAF940013778E /* MoneyDivison.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneyDivison.m; sourceTree = "<group>"; };
+		D3987E151F6BB1E90013778E /* CourierService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourierService.h; sourceTree = "<group>"; };
+		D3987E161F6BB1E90013778E /* CourierService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourierService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,20 @@
 			isa = PBXGroup;
 			children = (
 				D35399401F69A9ED00D6B952 /* main.m */,
+				D3987E031F6BACE20013778E /* Request.h */,
+				D3987E041F6BACE20013778E /* Request.m */,
+				D3987E061F6BADF50013778E /* Divison.h */,
+				D3987E071F6BADF50013778E /* Divison.m */,
+				D3987E091F6BAF660013778E /* GeneralDivison.h */,
+				D3987E0A1F6BAF660013778E /* GeneralDivison.m */,
+				D3987E0C1F6BAF740013778E /* PercelDivisonOne.h */,
+				D3987E0D1F6BAF740013778E /* PercelDivisonOne.m */,
+				D3987E0F1F6BAF860013778E /* PercelDivisonTwo.h */,
+				D3987E101F6BAF860013778E /* PercelDivisonTwo.m */,
+				D3987E121F6BAF940013778E /* MoneyDivison.h */,
+				D3987E131F6BAF940013778E /* MoneyDivison.m */,
+				D3987E151F6BB1E90013778E /* CourierService.h */,
+				D3987E161F6BB1E90013778E /* CourierService.m */,
 			);
 			path = ChainOfResponsibility;
 			sourceTree = "<group>";
@@ -120,7 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3987E111F6BAF860013778E /* PercelDivisonTwo.m in Sources */,
 				D35399411F69A9ED00D6B952 /* main.m in Sources */,
+				D3987E0B1F6BAF660013778E /* GeneralDivison.m in Sources */,
+				D3987E051F6BACE20013778E /* Request.m in Sources */,
+				D3987E081F6BADF50013778E /* Divison.m in Sources */,
+				D3987E171F6BB1E90013778E /* CourierService.m in Sources */,
+				D3987E141F6BAF940013778E /* MoneyDivison.m in Sources */,
+				D3987E0E1F6BAF740013778E /* PercelDivisonOne.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +293,7 @@
 				D35399461F69A9ED00D6B952 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
