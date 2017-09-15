@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		D35399541F69A9FB00D6B952 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D35399531F69A9FB00D6B952 /* main.m */; };
+		D3987E1A1F6BB5F10013778E /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E191F6BB5F10013778E /* Book.m */; };
+		D3987E1E1F6BB6C70013778E /* BuyCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E1D1F6BB6C70013778E /* BuyCommand.m */; };
+		D3987E211F6BB6D10013778E /* SellCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E201F6BB6D10013778E /* SellCommand.m */; };
+		D3987E241F6BB7DA0013778E /* GiftFriendCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E231F6BB7DA0013778E /* GiftFriendCommand.m */; };
+		D3987E271F6BB81C0013778E /* CommandExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E261F6BB81C0013778E /* CommandExecutor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,17 @@
 /* Begin PBXFileReference section */
 		D35399501F69A9FB00D6B952 /* Command */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Command; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35399531F69A9FB00D6B952 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3987E181F6BB5F10013778E /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		D3987E191F6BB5F10013778E /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		D3987E1B1F6BB6AB0013778E /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		D3987E1C1F6BB6C70013778E /* BuyCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyCommand.h; sourceTree = "<group>"; };
+		D3987E1D1F6BB6C70013778E /* BuyCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyCommand.m; sourceTree = "<group>"; };
+		D3987E1F1F6BB6D10013778E /* SellCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SellCommand.h; sourceTree = "<group>"; };
+		D3987E201F6BB6D10013778E /* SellCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SellCommand.m; sourceTree = "<group>"; };
+		D3987E221F6BB7DA0013778E /* GiftFriendCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiftFriendCommand.h; sourceTree = "<group>"; };
+		D3987E231F6BB7DA0013778E /* GiftFriendCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiftFriendCommand.m; sourceTree = "<group>"; };
+		D3987E251F6BB81C0013778E /* CommandExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandExecutor.h; sourceTree = SOURCE_ROOT; };
+		D3987E261F6BB81C0013778E /* CommandExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandExecutor.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,17 @@
 			isa = PBXGroup;
 			children = (
 				D35399531F69A9FB00D6B952 /* main.m */,
+				D3987E181F6BB5F10013778E /* Book.h */,
+				D3987E191F6BB5F10013778E /* Book.m */,
+				D3987E1B1F6BB6AB0013778E /* Command.h */,
+				D3987E1C1F6BB6C70013778E /* BuyCommand.h */,
+				D3987E1D1F6BB6C70013778E /* BuyCommand.m */,
+				D3987E1F1F6BB6D10013778E /* SellCommand.h */,
+				D3987E201F6BB6D10013778E /* SellCommand.m */,
+				D3987E221F6BB7DA0013778E /* GiftFriendCommand.h */,
+				D3987E231F6BB7DA0013778E /* GiftFriendCommand.m */,
+				D3987E251F6BB81C0013778E /* CommandExecutor.h */,
+				D3987E261F6BB81C0013778E /* CommandExecutor.m */,
 			);
 			path = Command;
 			sourceTree = "<group>";
@@ -120,7 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3987E271F6BB81C0013778E /* CommandExecutor.m in Sources */,
+				D3987E1A1F6BB5F10013778E /* Book.m in Sources */,
 				D35399541F69A9FB00D6B952 /* main.m in Sources */,
+				D3987E241F6BB7DA0013778E /* GiftFriendCommand.m in Sources */,
+				D3987E1E1F6BB6C70013778E /* BuyCommand.m in Sources */,
+				D3987E211F6BB6D10013778E /* SellCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +283,7 @@
 				D35399591F69A9FB00D6B952 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
