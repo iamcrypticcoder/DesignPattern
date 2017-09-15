@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		D35688E01F69AB1E003331BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D35688DF1F69AB1E003331BD /* main.m */; };
+		D3987E371F6BF2FC0013778E /* MySQLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E361F6BF2FC0013778E /* MySQLConnection.m */; };
+		D3987E3D1F6BF3210013778E /* MSSQLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E3C1F6BF3210013778E /* MSSQLConnection.m */; };
+		D3987E401F6BF32B0013778E /* OracleConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E3F1F6BF32B0013778E /* OracleConnection.m */; };
+		D3987E431F6BF3380013778E /* ConnectionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E421F6BF3380013778E /* ConnectionFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,15 @@
 /* Begin PBXFileReference section */
 		D35688DC1F69AB1E003331BD /* FactoryMethod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FactoryMethod; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35688DF1F69AB1E003331BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3987E341F6BF2A70013778E /* DatabaseConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabaseConnection.h; sourceTree = "<group>"; };
+		D3987E351F6BF2FC0013778E /* MySQLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySQLConnection.h; sourceTree = "<group>"; };
+		D3987E361F6BF2FC0013778E /* MySQLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySQLConnection.m; sourceTree = "<group>"; };
+		D3987E3B1F6BF3210013778E /* MSSQLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSQLConnection.h; sourceTree = "<group>"; };
+		D3987E3C1F6BF3210013778E /* MSSQLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSQLConnection.m; sourceTree = "<group>"; };
+		D3987E3E1F6BF32B0013778E /* OracleConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OracleConnection.h; sourceTree = "<group>"; };
+		D3987E3F1F6BF32B0013778E /* OracleConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OracleConnection.m; sourceTree = "<group>"; };
+		D3987E411F6BF3380013778E /* ConnectionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionFactory.h; sourceTree = "<group>"; };
+		D3987E421F6BF3380013778E /* ConnectionFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,15 @@
 			isa = PBXGroup;
 			children = (
 				D35688DF1F69AB1E003331BD /* main.m */,
+				D3987E341F6BF2A70013778E /* DatabaseConnection.h */,
+				D3987E351F6BF2FC0013778E /* MySQLConnection.h */,
+				D3987E361F6BF2FC0013778E /* MySQLConnection.m */,
+				D3987E3B1F6BF3210013778E /* MSSQLConnection.h */,
+				D3987E3C1F6BF3210013778E /* MSSQLConnection.m */,
+				D3987E3E1F6BF32B0013778E /* OracleConnection.h */,
+				D3987E3F1F6BF32B0013778E /* OracleConnection.m */,
+				D3987E411F6BF3380013778E /* ConnectionFactory.h */,
+				D3987E421F6BF3380013778E /* ConnectionFactory.m */,
 			);
 			path = FactoryMethod;
 			sourceTree = "<group>";
@@ -120,7 +142,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3987E431F6BF3380013778E /* ConnectionFactory.m in Sources */,
+				D3987E371F6BF2FC0013778E /* MySQLConnection.m in Sources */,
+				D3987E3D1F6BF3210013778E /* MSSQLConnection.m in Sources */,
 				D35688E01F69AB1E003331BD /* main.m in Sources */,
+				D3987E401F6BF32B0013778E /* OracleConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +277,7 @@
 				D35688E51F69AB1E003331BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

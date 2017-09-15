@@ -1,17 +1,11 @@
-//
-//  main.m
-//  FactoryMethod
-//
-//  Created by KAZI MAHBUBUR RAHMAN on 9/14/17.
-//  Copyright © 2017 KAZI MAHBUBUR RAHMAN. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
+#import "ConnectionFactory.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        id<DatabaseConnection> dbConnection = [ConnectionFactory getConnection:@"mysql"];
+        [dbConnection connect];
+        [dbConnection query:@"SELECT * FROM users"];
     }
     return 0;
 }
