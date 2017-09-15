@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		D35689191F69AB5D003331BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D35689181F69AB5D003331BD /* main.m */; };
+		D3987E461F6BF5E50013778E /* Widget.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E451F6BF5E50013778E /* Widget.m */; };
+		D3987E4A1F6BF6050013778E /* ListBox.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E491F6BF6050013778E /* ListBox.m */; };
+		D3987E4D1F6BF6110013778E /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E4C1F6BF6110013778E /* Button.m */; };
+		D3987E501F6BF61D0013778E /* CheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E4F1F6BF61D0013778E /* CheckBox.m */; };
+		D3987E531F6BF62F0013778E /* MyDialogBoxMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E521F6BF62F0013778E /* MyDialogBoxMediator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,17 @@
 /* Begin PBXFileReference section */
 		D35689151F69AB5D003331BD /* Mediator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Mediator; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35689181F69AB5D003331BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3987E441F6BF5E50013778E /* Widget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Widget.h; sourceTree = "<group>"; };
+		D3987E451F6BF5E50013778E /* Widget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Widget.m; sourceTree = "<group>"; };
+		D3987E471F6BF5F90013778E /* DialogBoxMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DialogBoxMediator.h; sourceTree = "<group>"; };
+		D3987E481F6BF6050013778E /* ListBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListBox.h; sourceTree = "<group>"; };
+		D3987E491F6BF6050013778E /* ListBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListBox.m; sourceTree = "<group>"; };
+		D3987E4B1F6BF6110013778E /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		D3987E4C1F6BF6110013778E /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
+		D3987E4E1F6BF61D0013778E /* CheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckBox.h; sourceTree = "<group>"; };
+		D3987E4F1F6BF61D0013778E /* CheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckBox.m; sourceTree = "<group>"; };
+		D3987E511F6BF62F0013778E /* MyDialogBoxMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDialogBoxMediator.h; sourceTree = "<group>"; };
+		D3987E521F6BF62F0013778E /* MyDialogBoxMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDialogBoxMediator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,17 @@
 			isa = PBXGroup;
 			children = (
 				D35689181F69AB5D003331BD /* main.m */,
+				D3987E441F6BF5E50013778E /* Widget.h */,
+				D3987E451F6BF5E50013778E /* Widget.m */,
+				D3987E471F6BF5F90013778E /* DialogBoxMediator.h */,
+				D3987E481F6BF6050013778E /* ListBox.h */,
+				D3987E491F6BF6050013778E /* ListBox.m */,
+				D3987E4B1F6BF6110013778E /* Button.h */,
+				D3987E4C1F6BF6110013778E /* Button.m */,
+				D3987E4E1F6BF61D0013778E /* CheckBox.h */,
+				D3987E4F1F6BF61D0013778E /* CheckBox.m */,
+				D3987E511F6BF62F0013778E /* MyDialogBoxMediator.h */,
+				D3987E521F6BF62F0013778E /* MyDialogBoxMediator.m */,
 			);
 			path = Mediator;
 			sourceTree = "<group>";
@@ -120,7 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3987E531F6BF62F0013778E /* MyDialogBoxMediator.m in Sources */,
+				D3987E4A1F6BF6050013778E /* ListBox.m in Sources */,
 				D35689191F69AB5D003331BD /* main.m in Sources */,
+				D3987E461F6BF5E50013778E /* Widget.m in Sources */,
+				D3987E501F6BF61D0013778E /* CheckBox.m in Sources */,
+				D3987E4D1F6BF6110013778E /* Button.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +283,7 @@
 				D356891E1F69AB5D003331BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
