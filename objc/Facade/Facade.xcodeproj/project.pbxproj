@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		D35688CD1F69AB0B003331BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D35688CC1F69AB0B003331BD /* main.m */; };
+		D3987E2A1F6BC9BE0013778E /* Protocol.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E291F6BC9BE0013778E /* Protocol.m */; };
+		D3987E2D1F6BCA200013778E /* DataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E2C1F6BCA200013778E /* DataCompressor.m */; };
+		D3987E301F6BCA2E0013778E /* DataSpliter.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E2F1F6BCA2E0013778E /* DataSpliter.m */; };
+		D3987E331F6BCA3B0013778E /* PacketSender.m in Sources */ = {isa = PBXBuildFile; fileRef = D3987E321F6BCA3B0013778E /* PacketSender.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		D35688C91F69AB0B003331BD /* Facade */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Facade; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35688CC1F69AB0B003331BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3987E281F6BC9BE0013778E /* Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Protocol.h; sourceTree = "<group>"; };
+		D3987E291F6BC9BE0013778E /* Protocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Protocol.m; sourceTree = "<group>"; };
+		D3987E2B1F6BCA200013778E /* DataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCompressor.h; sourceTree = "<group>"; };
+		D3987E2C1F6BCA200013778E /* DataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCompressor.m; sourceTree = "<group>"; };
+		D3987E2E1F6BCA2E0013778E /* DataSpliter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSpliter.h; sourceTree = "<group>"; };
+		D3987E2F1F6BCA2E0013778E /* DataSpliter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSpliter.m; sourceTree = "<group>"; };
+		D3987E311F6BCA3B0013778E /* PacketSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketSender.h; sourceTree = "<group>"; };
+		D3987E321F6BCA3B0013778E /* PacketSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PacketSender.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				D35688CC1F69AB0B003331BD /* main.m */,
+				D3987E281F6BC9BE0013778E /* Protocol.h */,
+				D3987E291F6BC9BE0013778E /* Protocol.m */,
+				D3987E2B1F6BCA200013778E /* DataCompressor.h */,
+				D3987E2C1F6BCA200013778E /* DataCompressor.m */,
+				D3987E2E1F6BCA2E0013778E /* DataSpliter.h */,
+				D3987E2F1F6BCA2E0013778E /* DataSpliter.m */,
+				D3987E311F6BCA3B0013778E /* PacketSender.h */,
+				D3987E321F6BCA3B0013778E /* PacketSender.m */,
 			);
 			path = Facade;
 			sourceTree = "<group>";
@@ -121,6 +141,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D35688CD1F69AB0B003331BD /* main.m in Sources */,
+				D3987E301F6BCA2E0013778E /* DataSpliter.m in Sources */,
+				D3987E2D1F6BCA200013778E /* DataCompressor.m in Sources */,
+				D3987E331F6BCA3B0013778E /* PacketSender.m in Sources */,
+				D3987E2A1F6BC9BE0013778E /* Protocol.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +275,7 @@
 				D35688D21F69AB0B003331BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

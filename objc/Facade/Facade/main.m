@@ -1,17 +1,11 @@
-//
-//  main.m
-//  Facade
-//
-//  Created by KAZI MAHBUBUR RAHMAN on 9/14/17.
-//  Copyright © 2017 KAZI MAHBUBUR RAHMAN. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
+#import "Protocol.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Protocol* protocol = [[Protocol alloc] initWith:CompressionAlgorithm_BZIP
+                                             packetSize:10];
+        [protocol sendData:@"I am a good boy"];
     }
     return 0;
 }
