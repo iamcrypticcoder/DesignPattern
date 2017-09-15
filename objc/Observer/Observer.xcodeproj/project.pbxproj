@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3319B981F6C585500E7E32D /* AppleInc.m in Sources */ = {isa = PBXBuildFile; fileRef = D3319B971F6C585500E7E32D /* AppleInc.m */; };
+		D3319B9B1F6C586800E7E32D /* Newspaper.m in Sources */ = {isa = PBXBuildFile; fileRef = D3319B9A1F6C586800E7E32D /* Newspaper.m */; };
+		D3319B9E1F6C587400E7E32D /* Internet.m in Sources */ = {isa = PBXBuildFile; fileRef = D3319B9D1F6C587400E7E32D /* Internet.m */; };
 		D356892C1F69AB6B003331BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D356892B1F69AB6B003331BD /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D3319B941F6C568800E7E32D /* Observer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		D3319B951F6C569300E7E32D /* Observable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Observable.h; sourceTree = "<group>"; };
+		D3319B961F6C585500E7E32D /* AppleInc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleInc.h; sourceTree = "<group>"; };
+		D3319B971F6C585500E7E32D /* AppleInc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleInc.m; sourceTree = "<group>"; };
+		D3319B991F6C586800E7E32D /* Newspaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Newspaper.h; sourceTree = "<group>"; };
+		D3319B9A1F6C586800E7E32D /* Newspaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Newspaper.m; sourceTree = "<group>"; };
+		D3319B9C1F6C587400E7E32D /* Internet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Internet.h; sourceTree = "<group>"; };
+		D3319B9D1F6C587400E7E32D /* Internet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Internet.m; sourceTree = "<group>"; };
 		D35689281F69AB6B003331BD /* Observer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Observer; sourceTree = BUILT_PRODUCTS_DIR; };
 		D356892B1F69AB6B003331BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +69,14 @@
 			isa = PBXGroup;
 			children = (
 				D356892B1F69AB6B003331BD /* main.m */,
+				D3319B941F6C568800E7E32D /* Observer.h */,
+				D3319B951F6C569300E7E32D /* Observable.h */,
+				D3319B961F6C585500E7E32D /* AppleInc.h */,
+				D3319B971F6C585500E7E32D /* AppleInc.m */,
+				D3319B991F6C586800E7E32D /* Newspaper.h */,
+				D3319B9A1F6C586800E7E32D /* Newspaper.m */,
+				D3319B9C1F6C587400E7E32D /* Internet.h */,
+				D3319B9D1F6C587400E7E32D /* Internet.m */,
 			);
 			path = Observer;
 			sourceTree = "<group>";
@@ -120,7 +139,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3319B9B1F6C586800E7E32D /* Newspaper.m in Sources */,
 				D356892C1F69AB6B003331BD /* main.m in Sources */,
+				D3319B9E1F6C587400E7E32D /* Internet.m in Sources */,
+				D3319B981F6C585500E7E32D /* AppleInc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +273,7 @@
 				D35689311F69AB6B003331BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,17 +1,17 @@
-//
-//  main.m
-//  Observer
-//
-//  Created by KAZI MAHBUBUR RAHMAN on 9/14/17.
-//  Copyright © 2017 KAZI MAHBUBUR RAHMAN. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
+#import "AppleInc.h"
+#import "Newspaper.h"
+#import "Internet.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Newspaper* printMedia = [[Newspaper alloc] init];
+        Internet* onlineMedia = [[Internet alloc] init];
+        
+        AppleInc* appl = [[AppleInc alloc] initWithFaceValue:665.45];
+        [appl registerObserver:printMedia];
+        [appl registerObserver:onlineMedia];
+        [appl setFaceValue:660.00];
     }
     return 0;
 }
