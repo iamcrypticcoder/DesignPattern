@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D35398D61F69A69000D6B952 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D35398D51F69A69000D6B952 /* main.m */; };
+		D3F88E861F6F94B900BC3BC3 /* SingletonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F88E851F6F94B900BC3BC3 /* SingletonClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		D35398D21F69A69000D6B952 /* Singleton */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Singleton; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35398D51F69A69000D6B952 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3F88E841F6F94B900BC3BC3 /* SingletonClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonClass.h; sourceTree = "<group>"; };
+		D3F88E851F6F94B900BC3BC3 /* SingletonClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				D35398D51F69A69000D6B952 /* main.m */,
+				D3F88E841F6F94B900BC3BC3 /* SingletonClass.h */,
+				D3F88E851F6F94B900BC3BC3 /* SingletonClass.m */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3F88E861F6F94B900BC3BC3 /* SingletonClass.m in Sources */,
 				D35398D61F69A69000D6B952 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
