@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D35689651F69AB93003331BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D35689641F69AB93003331BD /* main.m */; };
+		D3F88E8A1F6FC8F700BC3BC3 /* PenTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F88E891F6FC8F700BC3BC3 /* PenTool.m */; };
+		D3F88E8D1F6FC9E600BC3BC3 /* TriangleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F88E8C1F6FC9E600BC3BC3 /* TriangleTool.m */; };
+		D3F88E901F6FCA9100BC3BC3 /* MouseCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F88E8F1F6FCA9100BC3BC3 /* MouseCursor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,13 @@
 /* Begin PBXFileReference section */
 		D35689611F69AB93003331BD /* State */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = State; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35689641F69AB93003331BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3F88E871F6FC7F900BC3BC3 /* AbstractTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractTool.h; sourceTree = "<group>"; };
+		D3F88E881F6FC8F700BC3BC3 /* PenTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PenTool.h; sourceTree = "<group>"; };
+		D3F88E891F6FC8F700BC3BC3 /* PenTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PenTool.m; sourceTree = "<group>"; };
+		D3F88E8B1F6FC9E600BC3BC3 /* TriangleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleTool.h; sourceTree = "<group>"; };
+		D3F88E8C1F6FC9E600BC3BC3 /* TriangleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleTool.m; sourceTree = "<group>"; };
+		D3F88E8E1F6FCA9100BC3BC3 /* MouseCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MouseCursor.h; sourceTree = "<group>"; };
+		D3F88E8F1F6FCA9100BC3BC3 /* MouseCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MouseCursor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				D35689641F69AB93003331BD /* main.m */,
+				D3F88E871F6FC7F900BC3BC3 /* AbstractTool.h */,
+				D3F88E881F6FC8F700BC3BC3 /* PenTool.h */,
+				D3F88E891F6FC8F700BC3BC3 /* PenTool.m */,
+				D3F88E8B1F6FC9E600BC3BC3 /* TriangleTool.h */,
+				D3F88E8C1F6FC9E600BC3BC3 /* TriangleTool.m */,
+				D3F88E8E1F6FCA9100BC3BC3 /* MouseCursor.h */,
+				D3F88E8F1F6FCA9100BC3BC3 /* MouseCursor.m */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -120,7 +137,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3F88E8D1F6FC9E600BC3BC3 /* TriangleTool.m in Sources */,
 				D35689651F69AB93003331BD /* main.m in Sources */,
+				D3F88E8A1F6FC8F700BC3BC3 /* PenTool.m in Sources */,
+				D3F88E901F6FCA9100BC3BC3 /* MouseCursor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +271,7 @@
 				D356896A1F69AB93003331BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
