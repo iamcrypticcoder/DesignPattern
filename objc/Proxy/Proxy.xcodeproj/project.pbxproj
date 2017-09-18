@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D356893F1F69AB7C003331BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D356893E1F69AB7C003331BD /* main.m */; };
+		D3F88E801F6F8C5600BC3BC3 /* RealImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F88E7F1F6F8C5600BC3BC3 /* RealImage.m */; };
+		D3F88E831F6F8C6A00BC3BC3 /* ProxyImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F88E821F6F8C6A00BC3BC3 /* ProxyImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		D356893B1F69AB7C003331BD /* Proxy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Proxy; sourceTree = BUILT_PRODUCTS_DIR; };
 		D356893E1F69AB7C003331BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3F88E7D1F6F8C1F00BC3BC3 /* Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		D3F88E7E1F6F8C5600BC3BC3 /* RealImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealImage.h; sourceTree = "<group>"; };
+		D3F88E7F1F6F8C5600BC3BC3 /* RealImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealImage.m; sourceTree = "<group>"; };
+		D3F88E811F6F8C6A00BC3BC3 /* ProxyImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProxyImage.h; sourceTree = "<group>"; };
+		D3F88E821F6F8C6A00BC3BC3 /* ProxyImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProxyImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				D356893E1F69AB7C003331BD /* main.m */,
+				D3F88E7D1F6F8C1F00BC3BC3 /* Image.h */,
+				D3F88E7E1F6F8C5600BC3BC3 /* RealImage.h */,
+				D3F88E7F1F6F8C5600BC3BC3 /* RealImage.m */,
+				D3F88E811F6F8C6A00BC3BC3 /* ProxyImage.h */,
+				D3F88E821F6F8C6A00BC3BC3 /* ProxyImage.m */,
 			);
 			path = Proxy;
 			sourceTree = "<group>";
@@ -121,6 +133,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D356893F1F69AB7C003331BD /* main.m in Sources */,
+				D3F88E801F6F8C5600BC3BC3 /* RealImage.m in Sources */,
+				D3F88E831F6F8C6A00BC3BC3 /* ProxyImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +265,7 @@
 				D35689441F69AB7C003331BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
