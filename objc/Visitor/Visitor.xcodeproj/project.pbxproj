@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		D35689B71F69ADC2003331BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D35689B61F69ADC2003331BD /* main.m */; };
+		D3F88EA21F70E8A600BC3BC3 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F88EA11F70E8A600BC3BC3 /* Book.m */; };
+		D3F88EA51F70F16400BC3BC3 /* Library.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F88EA41F70F16400BC3BC3 /* Library.m */; };
+		D3F88EA81F70F32A00BC3BC3 /* AveragePriceCalcVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F88EA71F70F32A00BC3BC3 /* AveragePriceCalcVisitor.m */; };
+		D3F88EAB1F70F33600BC3BC3 /* AveragePageCalcVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F88EAA1F70F33500BC3BC3 /* AveragePageCalcVisitor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,16 @@
 /* Begin PBXFileReference section */
 		D35689B31F69ADC2003331BD /* Visitor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Visitor; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35689B61F69ADC2003331BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3F88E9E1F70E87100BC3BC3 /* LibraryVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryVisitor.h; sourceTree = "<group>"; };
+		D3F88E9F1F70E87C00BC3BC3 /* Visitable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Visitable.h; sourceTree = "<group>"; };
+		D3F88EA01F70E8A600BC3BC3 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		D3F88EA11F70E8A600BC3BC3 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		D3F88EA31F70F16400BC3BC3 /* Library.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Library.h; sourceTree = "<group>"; };
+		D3F88EA41F70F16400BC3BC3 /* Library.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Library.m; sourceTree = "<group>"; };
+		D3F88EA61F70F32A00BC3BC3 /* AveragePriceCalcVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AveragePriceCalcVisitor.h; sourceTree = "<group>"; };
+		D3F88EA71F70F32A00BC3BC3 /* AveragePriceCalcVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AveragePriceCalcVisitor.m; sourceTree = "<group>"; };
+		D3F88EA91F70F33500BC3BC3 /* AveragePageCalcVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AveragePageCalcVisitor.h; sourceTree = "<group>"; };
+		D3F88EAA1F70F33500BC3BC3 /* AveragePageCalcVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AveragePageCalcVisitor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,16 @@
 			isa = PBXGroup;
 			children = (
 				D35689B61F69ADC2003331BD /* main.m */,
+				D3F88E9E1F70E87100BC3BC3 /* LibraryVisitor.h */,
+				D3F88E9F1F70E87C00BC3BC3 /* Visitable.h */,
+				D3F88EA01F70E8A600BC3BC3 /* Book.h */,
+				D3F88EA11F70E8A600BC3BC3 /* Book.m */,
+				D3F88EA31F70F16400BC3BC3 /* Library.h */,
+				D3F88EA41F70F16400BC3BC3 /* Library.m */,
+				D3F88EA61F70F32A00BC3BC3 /* AveragePriceCalcVisitor.h */,
+				D3F88EA71F70F32A00BC3BC3 /* AveragePriceCalcVisitor.m */,
+				D3F88EA91F70F33500BC3BC3 /* AveragePageCalcVisitor.h */,
+				D3F88EAA1F70F33500BC3BC3 /* AveragePageCalcVisitor.m */,
 			);
 			path = Visitor;
 			sourceTree = "<group>";
@@ -120,6 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3F88EAB1F70F33600BC3BC3 /* AveragePageCalcVisitor.m in Sources */,
+				D3F88EA51F70F16400BC3BC3 /* Library.m in Sources */,
+				D3F88EA81F70F32A00BC3BC3 /* AveragePriceCalcVisitor.m in Sources */,
+				D3F88EA21F70E8A600BC3BC3 /* Book.m in Sources */,
 				D35689B71F69ADC2003331BD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +279,7 @@
 				D35689BC1F69ADC2003331BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
