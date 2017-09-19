@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		D35689911F69AD2E003331BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D35689901F69AD2E003331BD /* main.m */; };
+		D3F88E941F70E2D500BC3BC3 /* LaughAnalyzeStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F88E931F70E2D500BC3BC3 /* LaughAnalyzeStrategy.m */; };
+		D3F88E971F70E2ED00BC3BC3 /* SadnessAnalyzeStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F88E961F70E2ED00BC3BC3 /* SadnessAnalyzeStrategy.m */; };
+		D3F88E9A1F70E37E00BC3BC3 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F88E991F70E37E00BC3BC3 /* Post.m */; };
+		D3F88E9D1F70E52100BC3BC3 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F88E9C1F70E52100BC3BC3 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,15 @@
 /* Begin PBXFileReference section */
 		D356898D1F69AD2E003331BD /* Strategy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Strategy; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35689901F69AD2E003331BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3F88E911F70E29100BC3BC3 /* PostAnalyzeStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostAnalyzeStrategy.h; sourceTree = "<group>"; };
+		D3F88E921F70E2D500BC3BC3 /* LaughAnalyzeStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaughAnalyzeStrategy.h; sourceTree = "<group>"; };
+		D3F88E931F70E2D500BC3BC3 /* LaughAnalyzeStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaughAnalyzeStrategy.m; sourceTree = "<group>"; };
+		D3F88E951F70E2ED00BC3BC3 /* SadnessAnalyzeStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SadnessAnalyzeStrategy.h; sourceTree = "<group>"; };
+		D3F88E961F70E2ED00BC3BC3 /* SadnessAnalyzeStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SadnessAnalyzeStrategy.m; sourceTree = "<group>"; };
+		D3F88E981F70E37E00BC3BC3 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		D3F88E991F70E37E00BC3BC3 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		D3F88E9B1F70E52100BC3BC3 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		D3F88E9C1F70E52100BC3BC3 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,15 @@
 			isa = PBXGroup;
 			children = (
 				D35689901F69AD2E003331BD /* main.m */,
+				D3F88E981F70E37E00BC3BC3 /* Post.h */,
+				D3F88E991F70E37E00BC3BC3 /* Post.m */,
+				D3F88E9B1F70E52100BC3BC3 /* User.h */,
+				D3F88E9C1F70E52100BC3BC3 /* User.m */,
+				D3F88E911F70E29100BC3BC3 /* PostAnalyzeStrategy.h */,
+				D3F88E921F70E2D500BC3BC3 /* LaughAnalyzeStrategy.h */,
+				D3F88E931F70E2D500BC3BC3 /* LaughAnalyzeStrategy.m */,
+				D3F88E951F70E2ED00BC3BC3 /* SadnessAnalyzeStrategy.h */,
+				D3F88E961F70E2ED00BC3BC3 /* SadnessAnalyzeStrategy.m */,
 			);
 			path = Strategy;
 			sourceTree = "<group>";
@@ -120,7 +142,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3F88E9D1F70E52100BC3BC3 /* User.m in Sources */,
+				D3F88E971F70E2ED00BC3BC3 /* SadnessAnalyzeStrategy.m in Sources */,
 				D35689911F69AD2E003331BD /* main.m in Sources */,
+				D3F88E941F70E2D500BC3BC3 /* LaughAnalyzeStrategy.m in Sources */,
+				D3F88E9A1F70E37E00BC3BC3 /* Post.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +277,7 @@
 				D35689961F69AD2E003331BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
