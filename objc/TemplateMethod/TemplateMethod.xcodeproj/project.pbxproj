@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D35689A41F69ADB5003331BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D35689A31F69ADB5003331BD /* main.m */; };
+		D37521751F72BF9C006385A7 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = D37521741F72BF9C006385A7 /* Connection.m */; };
+		D37521781F72BFAE006385A7 /* BluetoothConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D37521771F72BFAE006385A7 /* BluetoothConnection.m */; };
+		D375217B1F72BFB9006385A7 /* WifiConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D375217A1F72BFB9006385A7 /* WifiConnection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		D35689A01F69ADB5003331BD /* TemplateMethod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TemplateMethod; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35689A31F69ADB5003331BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D37521731F72BF9C006385A7 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		D37521741F72BF9C006385A7 /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		D37521761F72BFAE006385A7 /* BluetoothConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothConnection.h; sourceTree = "<group>"; };
+		D37521771F72BFAE006385A7 /* BluetoothConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothConnection.m; sourceTree = "<group>"; };
+		D37521791F72BFB9006385A7 /* WifiConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiConnection.h; sourceTree = "<group>"; };
+		D375217A1F72BFB9006385A7 /* WifiConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiConnection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				D35689A31F69ADB5003331BD /* main.m */,
+				D37521731F72BF9C006385A7 /* Connection.h */,
+				D37521741F72BF9C006385A7 /* Connection.m */,
+				D37521761F72BFAE006385A7 /* BluetoothConnection.h */,
+				D37521771F72BFAE006385A7 /* BluetoothConnection.m */,
+				D37521791F72BFB9006385A7 /* WifiConnection.h */,
+				D375217A1F72BFB9006385A7 /* WifiConnection.m */,
 			);
 			path = TemplateMethod;
 			sourceTree = "<group>";
@@ -120,7 +135,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D37521781F72BFAE006385A7 /* BluetoothConnection.m in Sources */,
 				D35689A41F69ADB5003331BD /* main.m in Sources */,
+				D375217B1F72BFB9006385A7 /* WifiConnection.m in Sources */,
+				D37521751F72BF9C006385A7 /* Connection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +269,7 @@
 				D35689A91F69ADB5003331BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
