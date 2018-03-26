@@ -1,12 +1,13 @@
-//
-//  main.swift
-//  Command
-//
-//  Created by KAZI MAHBUBUR RAHMAN on 26/3/18.
-//  Copyright © 2018 KAZI MAHBUBUR RAHMAN. All rights reserved.
-//
-
 import Foundation
 
-print("Hello, World!")
+var book1: Book = Book()
+var executor: CommandExecutor = CommandExecutor()
+executor.addCommand(BuyCommand(book1))
+executor.runCommand()
+print("Current owner: \(book1.currentOwner!)")
+
+executor.addCommand(GiftFriendCommand(book1, "Mahbub"))
+executor.addCommand(SellCommand(book1))
+executor.runCommand()
+print("Current owner: \(book1.currentOwner!)")
 

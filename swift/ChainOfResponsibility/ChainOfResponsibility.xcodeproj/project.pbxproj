@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		D34486E82068E8560023FB29 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34486E72068E8560023FB29 /* main.swift */; };
+		D344884820692B2B0023FB29 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D344884720692B2B0023FB29 /* Request.swift */; };
+		D344884A20692B380023FB29 /* Divison.swift in Sources */ = {isa = PBXBuildFile; fileRef = D344884920692B380023FB29 /* Divison.swift */; };
+		D344884C20692B430023FB29 /* GeneralDivison.swift in Sources */ = {isa = PBXBuildFile; fileRef = D344884B20692B430023FB29 /* GeneralDivison.swift */; };
+		D344884E20692B530023FB29 /* ParcelDivisonOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = D344884D20692B530023FB29 /* ParcelDivisonOne.swift */; };
+		D344885020692B5F0023FB29 /* ParcelDivisonTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D344884F20692B5F0023FB29 /* ParcelDivisonTwo.swift */; };
+		D344885220692B6F0023FB29 /* MoneyDivison.swift in Sources */ = {isa = PBXBuildFile; fileRef = D344885120692B6F0023FB29 /* MoneyDivison.swift */; };
+		D344885420692B7B0023FB29 /* CourierService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D344885320692B7B0023FB29 /* CourierService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,13 @@
 /* Begin PBXFileReference section */
 		D34486E42068E8560023FB29 /* ChainOfResponsibility */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChainOfResponsibility; sourceTree = BUILT_PRODUCTS_DIR; };
 		D34486E72068E8560023FB29 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D344884720692B2B0023FB29 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		D344884920692B380023FB29 /* Divison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divison.swift; sourceTree = "<group>"; };
+		D344884B20692B430023FB29 /* GeneralDivison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralDivison.swift; sourceTree = "<group>"; };
+		D344884D20692B530023FB29 /* ParcelDivisonOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParcelDivisonOne.swift; sourceTree = "<group>"; };
+		D344884F20692B5F0023FB29 /* ParcelDivisonTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParcelDivisonTwo.swift; sourceTree = "<group>"; };
+		D344885120692B6F0023FB29 /* MoneyDivison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyDivison.swift; sourceTree = "<group>"; };
+		D344885320692B7B0023FB29 /* CourierService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourierService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,13 @@
 			isa = PBXGroup;
 			children = (
 				D34486E72068E8560023FB29 /* main.swift */,
+				D344884720692B2B0023FB29 /* Request.swift */,
+				D344884920692B380023FB29 /* Divison.swift */,
+				D344884B20692B430023FB29 /* GeneralDivison.swift */,
+				D344884D20692B530023FB29 /* ParcelDivisonOne.swift */,
+				D344884F20692B5F0023FB29 /* ParcelDivisonTwo.swift */,
+				D344885120692B6F0023FB29 /* MoneyDivison.swift */,
+				D344885320692B7B0023FB29 /* CourierService.swift */,
 			);
 			path = ChainOfResponsibility;
 			sourceTree = "<group>";
@@ -121,6 +142,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D34486E82068E8560023FB29 /* main.swift in Sources */,
+				D344885420692B7B0023FB29 /* CourierService.swift in Sources */,
+				D344884C20692B430023FB29 /* GeneralDivison.swift in Sources */,
+				D344884E20692B530023FB29 /* ParcelDivisonOne.swift in Sources */,
+				D344885220692B6F0023FB29 /* MoneyDivison.swift in Sources */,
+				D344884A20692B380023FB29 /* Divison.swift in Sources */,
+				D344885020692B5F0023FB29 /* ParcelDivisonTwo.swift in Sources */,
+				D344884820692B2B0023FB29 /* Request.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
