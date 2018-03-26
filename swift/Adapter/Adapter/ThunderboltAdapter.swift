@@ -16,27 +16,29 @@ class ThunderboltAdapter {
     }
     
     func sendData(_ data: String) {
-        // Need to implement
-        /*
+        
         if connection is EthernetConnection {
             let sequence = stride(from: 0, to: data.count, by: 10)
             for i in sequence {
-                let len: Int = (i + 10) > data.count ? data.count - i : 10
-                let subStr = String(data.substring(with: i..<i+len))
-                connection.sendPacket(subStr)
+                let start = data.index(data.startIndex, offsetBy: i)
+                let end = i + 10 >= data.count ?
+                    data.index(data.endIndex, offsetBy: 0) :
+                    data.index(data.startIndex, offsetBy: i+10)
+                connection.sendPacket(String(data[start..<end]))
             }
             return
         }
         
         if connection is MobileDataConnection {
-            let sequence = stride(from: 0, to: data.count, by: 10)
+            let sequence = stride(from: 0, to: data.count, by: 5)
             for i in sequence {
-                let len: Int = (i + 10) > data.count ? data.count - i : 10
-                let subStr = Range(i, in: i+len)
-                connection.sendPacket(subStr)
+                let start = data.index(data.startIndex, offsetBy: i)
+                let end = i + 5 >= data.count ?
+                    data.index(data.endIndex, offsetBy: 0) :
+                    data.index(data.startIndex, offsetBy: i+5)
+                connection.sendPacket(String(data[start..<end]))
             }
             return
         }
- */
     }
 }
