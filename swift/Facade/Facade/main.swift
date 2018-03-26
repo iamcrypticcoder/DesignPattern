@@ -1,12 +1,5 @@
-//
-//  main.swift
-//  Facade
-//
-//  Created by KAZI MAHBUBUR RAHMAN on 26/3/18.
-//  Copyright © 2018 KAZI MAHBUBUR RAHMAN. All rights reserved.
-//
-
 import Foundation
 
-print("Hello, World!")
+var p:Protocol = Protocol(CompressionAlgorithm.CompressionAlgorithm_BZIP, 5)
+p.sendData("I am a good boy")
 

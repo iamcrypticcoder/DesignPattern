@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		D34487342068E8880023FB29 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34487332068E8880023FB29 /* main.swift */; };
+		D344886220694C020023FB29 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D344886120694C020023FB29 /* Protocol.swift */; };
+		D344886420694C0F0023FB29 /* DataCompressor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D344886320694C0F0023FB29 /* DataCompressor.swift */; };
+		D344886620694C210023FB29 /* DataSpliter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D344886520694C210023FB29 /* DataSpliter.swift */; };
+		D344886820694C2D0023FB29 /* PacketSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = D344886720694C2D0023FB29 /* PacketSender.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		D34487302068E8880023FB29 /* Facade */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Facade; sourceTree = BUILT_PRODUCTS_DIR; };
 		D34487332068E8880023FB29 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D344886120694C020023FB29 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		D344886320694C0F0023FB29 /* DataCompressor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCompressor.swift; sourceTree = "<group>"; };
+		D344886520694C210023FB29 /* DataSpliter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSpliter.swift; sourceTree = "<group>"; };
+		D344886720694C2D0023FB29 /* PacketSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketSender.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				D34487332068E8880023FB29 /* main.swift */,
+				D344886120694C020023FB29 /* Protocol.swift */,
+				D344886320694C0F0023FB29 /* DataCompressor.swift */,
+				D344886520694C210023FB29 /* DataSpliter.swift */,
+				D344886720694C2D0023FB29 /* PacketSender.swift */,
 			);
 			path = Facade;
 			sourceTree = "<group>";
@@ -121,6 +133,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D34487342068E8880023FB29 /* main.swift in Sources */,
+				D344886620694C210023FB29 /* DataSpliter.swift in Sources */,
+				D344886420694C0F0023FB29 /* DataCompressor.swift in Sources */,
+				D344886820694C2D0023FB29 /* PacketSender.swift in Sources */,
+				D344886220694C020023FB29 /* Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
