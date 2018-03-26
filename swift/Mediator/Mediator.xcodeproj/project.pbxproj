@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		D34487932068E8D10023FB29 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34487922068E8D10023FB29 /* main.swift */; };
+		D344886A20695DBD0023FB29 /* Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D344886920695DBD0023FB29 /* Widget.swift */; };
+		D344886C20695DCD0023FB29 /* DialogBoxMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D344886B20695DCD0023FB29 /* DialogBoxMediator.swift */; };
+		D344886E20695DD90023FB29 /* ListBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D344886D20695DD90023FB29 /* ListBox.swift */; };
+		D344887020695DE40023FB29 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = D344886F20695DE40023FB29 /* Button.swift */; };
+		D344887220695DF00023FB29 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D344887120695DF00023FB29 /* CheckBox.swift */; };
+		D344887420695E000023FB29 /* MyDialogBoxMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D344887320695E000023FB29 /* MyDialogBoxMediator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		D344878F2068E8D10023FB29 /* Mediator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Mediator; sourceTree = BUILT_PRODUCTS_DIR; };
 		D34487922068E8D10023FB29 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D344886920695DBD0023FB29 /* Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget.swift; sourceTree = "<group>"; };
+		D344886B20695DCD0023FB29 /* DialogBoxMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogBoxMediator.swift; sourceTree = "<group>"; };
+		D344886D20695DD90023FB29 /* ListBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBox.swift; sourceTree = "<group>"; };
+		D344886F20695DE40023FB29 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		D344887120695DF00023FB29 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		D344887320695E000023FB29 /* MyDialogBoxMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDialogBoxMediator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				D34487922068E8D10023FB29 /* main.swift */,
+				D344886920695DBD0023FB29 /* Widget.swift */,
+				D344886B20695DCD0023FB29 /* DialogBoxMediator.swift */,
+				D344886D20695DD90023FB29 /* ListBox.swift */,
+				D344886F20695DE40023FB29 /* Button.swift */,
+				D344887120695DF00023FB29 /* CheckBox.swift */,
+				D344887320695E000023FB29 /* MyDialogBoxMediator.swift */,
 			);
 			path = Mediator;
 			sourceTree = "<group>";
@@ -120,7 +138,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D344887020695DE40023FB29 /* Button.swift in Sources */,
 				D34487932068E8D10023FB29 /* main.swift in Sources */,
+				D344887220695DF00023FB29 /* CheckBox.swift in Sources */,
+				D344886E20695DD90023FB29 /* ListBox.swift in Sources */,
+				D344886C20695DCD0023FB29 /* DialogBoxMediator.swift in Sources */,
+				D344887420695E000023FB29 /* MyDialogBoxMediator.swift in Sources */,
+				D344886A20695DBD0023FB29 /* Widget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
