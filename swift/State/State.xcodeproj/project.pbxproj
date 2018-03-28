@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		D34487F22068E9350023FB29 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34487F12068E9350023FB29 /* main.swift */; };
+		D347B9D8206BF33100831A31 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = D347B9D7206BF33100831A31 /* Point.swift */; };
+		D3BE6431206AC4C000B4D407 /* AbstractTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE6430206AC4C000B4D407 /* AbstractTool.swift */; };
+		D3BE6433206AC4C900B4D407 /* PenTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE6432206AC4C900B4D407 /* PenTool.swift */; };
+		D3BE6435206AC4DC00B4D407 /* TriangleTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE6434206AC4DC00B4D407 /* TriangleTool.swift */; };
+		D3BE6437206AC4EB00B4D407 /* MouseCursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE6436206AC4EB00B4D407 /* MouseCursor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		D34487EE2068E9350023FB29 /* State */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = State; sourceTree = BUILT_PRODUCTS_DIR; };
 		D34487F12068E9350023FB29 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D347B9D7206BF33100831A31 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		D3BE6430206AC4C000B4D407 /* AbstractTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractTool.swift; sourceTree = "<group>"; };
+		D3BE6432206AC4C900B4D407 /* PenTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenTool.swift; sourceTree = "<group>"; };
+		D3BE6434206AC4DC00B4D407 /* TriangleTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleTool.swift; sourceTree = "<group>"; };
+		D3BE6436206AC4EB00B4D407 /* MouseCursor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseCursor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				D34487F12068E9350023FB29 /* main.swift */,
+				D3BE6430206AC4C000B4D407 /* AbstractTool.swift */,
+				D3BE6432206AC4C900B4D407 /* PenTool.swift */,
+				D3BE6434206AC4DC00B4D407 /* TriangleTool.swift */,
+				D3BE6436206AC4EB00B4D407 /* MouseCursor.swift */,
+				D347B9D7206BF33100831A31 /* Point.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -120,7 +135,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3BE6437206AC4EB00B4D407 /* MouseCursor.swift in Sources */,
 				D34487F22068E9350023FB29 /* main.swift in Sources */,
+				D347B9D8206BF33100831A31 /* Point.swift in Sources */,
+				D3BE6435206AC4DC00B4D407 /* TriangleTool.swift in Sources */,
+				D3BE6433206AC4C900B4D407 /* PenTool.swift in Sources */,
+				D3BE6431206AC4C000B4D407 /* AbstractTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

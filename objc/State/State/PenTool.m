@@ -14,7 +14,7 @@
 
 -(void)mouseTo:(Point) p {
     if(mouseDown) {
-        NSLog(@"Print a LINE from start point to current point");
+        NSLog(@"f");
     }
 }
 

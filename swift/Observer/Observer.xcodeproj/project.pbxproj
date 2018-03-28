@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		D34487A62068E8DF0023FB29 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34487A52068E8DF0023FB29 /* main.swift */; };
+		D3BE6425206AB96900B4D407 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE6424206AB96900B4D407 /* Observer.swift */; };
+		D3BE6427206AB98600B4D407 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE6426206AB98600B4D407 /* Observable.swift */; };
+		D3BE6429206AB99200B4D407 /* AppleInc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE6428206AB99200B4D407 /* AppleInc.swift */; };
+		D3BE642B206AB99D00B4D407 /* Newspaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE642A206AB99D00B4D407 /* Newspaper.swift */; };
+		D3BE642D206AB9A900B4D407 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE642C206AB9A900B4D407 /* Internet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		D34487A22068E8DF0023FB29 /* Observer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Observer; sourceTree = BUILT_PRODUCTS_DIR; };
 		D34487A52068E8DF0023FB29 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D3BE6424206AB96900B4D407 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		D3BE6426206AB98600B4D407 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		D3BE6428206AB99200B4D407 /* AppleInc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleInc.swift; sourceTree = "<group>"; };
+		D3BE642A206AB99D00B4D407 /* Newspaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Newspaper.swift; sourceTree = "<group>"; };
+		D3BE642C206AB9A900B4D407 /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				D34487A52068E8DF0023FB29 /* main.swift */,
+				D3BE6424206AB96900B4D407 /* Observer.swift */,
+				D3BE6426206AB98600B4D407 /* Observable.swift */,
+				D3BE6428206AB99200B4D407 /* AppleInc.swift */,
+				D3BE642A206AB99D00B4D407 /* Newspaper.swift */,
+				D3BE642C206AB9A900B4D407 /* Internet.swift */,
 			);
 			path = Observer;
 			sourceTree = "<group>";
@@ -120,7 +135,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3BE642D206AB9A900B4D407 /* Internet.swift in Sources */,
+				D3BE642B206AB99D00B4D407 /* Newspaper.swift in Sources */,
 				D34487A62068E8DF0023FB29 /* main.swift in Sources */,
+				D3BE6429206AB99200B4D407 /* AppleInc.swift in Sources */,
+				D3BE6427206AB98600B4D407 /* Observable.swift in Sources */,
+				D3BE6425206AB96900B4D407 /* Observer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

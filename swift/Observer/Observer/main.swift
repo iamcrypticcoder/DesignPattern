@@ -1,12 +1,10 @@
-//
-//  main.swift
-//  Observer
-//
-//  Created by KAZI MAHBUBUR RAHMAN on 26/3/18.
-//  Copyright © 2018 KAZI MAHBUBUR RAHMAN. All rights reserved.
-//
-
 import Foundation
 
-print("Hello, World!")
+let printMedia: Newspaper = Newspaper()
+let onlineMedia: Internet = Internet()
 
+let appl = AppleInc(665.45)
+appl.registerObserver(printMedia)
+appl.registerObserver(onlineMedia)
+appl.setFaceValue(660.00)
+appl.notifyObservers()
