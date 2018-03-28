@@ -5,7 +5,7 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Library* library = [[Library alloc] initWith:@"KUET Library"];
+        Library* library = [[Library alloc] initWith:@"KUET Central Library"];
         [library addBook:[[Book alloc] initWith:@"Design Pattern" noPages:456 price:75.5]];
         [library addBook:[[Book alloc] initWith:@"Introduction to Java" noPages:666 price:110]];
         
