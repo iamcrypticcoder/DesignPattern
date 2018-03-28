@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		D34488052068E9440023FB29 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34488042068E9440023FB29 /* main.swift */; };
+		D347B9DA206BF53500831A31 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D347B9D9206BF53500831A31 /* Post.swift */; };
+		D347B9DC206BF53D00831A31 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D347B9DB206BF53D00831A31 /* User.swift */; };
+		D347B9DE206BF56700831A31 /* PostAnalyzeStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D347B9DD206BF56700831A31 /* PostAnalyzeStrategy.swift */; };
+		D347B9E0206BF57400831A31 /* LaughAnalyzeStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D347B9DF206BF57400831A31 /* LaughAnalyzeStrategy.swift */; };
+		D347B9E2206BF58000831A31 /* SadnessAnalyzeStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D347B9E1206BF58000831A31 /* SadnessAnalyzeStrategy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		D34488012068E9440023FB29 /* Strategy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Strategy; sourceTree = BUILT_PRODUCTS_DIR; };
 		D34488042068E9440023FB29 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D347B9D9206BF53500831A31 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		D347B9DB206BF53D00831A31 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D347B9DD206BF56700831A31 /* PostAnalyzeStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostAnalyzeStrategy.swift; sourceTree = "<group>"; };
+		D347B9DF206BF57400831A31 /* LaughAnalyzeStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaughAnalyzeStrategy.swift; sourceTree = "<group>"; };
+		D347B9E1206BF58000831A31 /* SadnessAnalyzeStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadnessAnalyzeStrategy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				D34488042068E9440023FB29 /* main.swift */,
+				D347B9D9206BF53500831A31 /* Post.swift */,
+				D347B9DB206BF53D00831A31 /* User.swift */,
+				D347B9DD206BF56700831A31 /* PostAnalyzeStrategy.swift */,
+				D347B9DF206BF57400831A31 /* LaughAnalyzeStrategy.swift */,
+				D347B9E1206BF58000831A31 /* SadnessAnalyzeStrategy.swift */,
 			);
 			path = Strategy;
 			sourceTree = "<group>";
@@ -121,6 +136,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D34488052068E9440023FB29 /* main.swift in Sources */,
+				D347B9DE206BF56700831A31 /* PostAnalyzeStrategy.swift in Sources */,
+				D347B9E0206BF57400831A31 /* LaughAnalyzeStrategy.swift in Sources */,
+				D347B9E2206BF58000831A31 /* SadnessAnalyzeStrategy.swift in Sources */,
+				D347B9DA206BF53500831A31 /* Post.swift in Sources */,
+				D347B9DC206BF53D00831A31 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

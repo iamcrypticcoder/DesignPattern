@@ -1,12 +1,11 @@
-//
-//  main.swift
-//  Strategy
-//
-//  Created by KAZI MAHBUBUR RAHMAN on 26/3/18.
-//  Copyright © 2018 KAZI MAHBUBUR RAHMAN. All rights reserved.
-//
-
 import Foundation
 
-print("Hello, World!")
+let user: User = User()
 
+user.addPost(Post("Post 1", 10, 5, 5))
+user.addPost(Post("Post 2", 10, 5, 5))
+user.addPost(Post("Post 3", 10, 0, 0))
+user.addPost(Post("Post 4", 0, 0, 10))
+
+user.analyzePosts(LaughAnalyzeStrategy())
+user.analyzePosts(SadnessAnalysisStrategy())
